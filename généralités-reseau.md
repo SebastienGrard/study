@@ -172,20 +172,54 @@ Il existe une version plus limité qui est le brdige. Il permet de connecter deu
 
 ### Routeur
 
+Un routeur est un appareil qui permet de connecter deux réseau qui ont des plans d'adressages différents.
+Typiquement, le routeur est utilisé pour relier un réseau LAN et un réseau WAN.
 
-
+Le routeur est capable de transmettre les paquets de données d'un réseau à l'autre mais sa fonction est en fait d'isoler les réseaux LAN des réseaux WAN afin de permettre la construction de réseaux plus larges.
+Il va travailler sur le couche 3 (réseau), et va s'occuper d'acheminer les paquets vers leurs réseaux de destination.
 
 ### Wireless access point (point d'accès sans fil)
 
-### CPL
+Cet appareil, relié à réseau filaire, permet à des machines équipées d'antennes Wi-Fi de communiquer avec d'autres machines comme si elles étaient connectées par câble.
+
+Il y a plusieurs normes qui permettent de communiquer à des débits plus ou moins importants :
+
+- 802.11b : 11 Mbit/s
+- 802.11g : 54 Mbit/s
+- 802.11n : 72 Mbit/s
+
+Attention : vérifiez bien la capacité de débit du port filaire aussi.
+Si vous avez trois machines qui communiquent à 54 Mbit/s, cela s'additionne et le port filaire débite du 162 Mbit/s.
+Un port 1 000 Mbit/s pour le port filaire est donc bienvenu.
+
+### CPL (courant porteur en ligne)
+
+Dans certaines situations, il est compliqué voir impossible de mettre en place un réseau informatique filaire ou sans fil.
+Le CPL permet d'utiliser le réseau électrique déjà en place pour transporter des données.
+Des boîtiers CPL sont branchés d'une part à une prise électrique et d'autre part à un appareil ethernet (carte réseau d'un ordinateur, access point, routeur, etc).
+Les boîtiers « écoutent » les communications sur le réseau électrique et se comportent comme un hub.
+
+### Ethernet
+
+Ethernet est un protocole qui permet à plusieurs machines de communiquer alors qu'elle se partagent un unique « bus ».
+
+Le principe est d'obliger les machines à attendre que le bus soit disponible avant d'émettre un signal et de prévoir à l'avance comment elles doivent se comporter si elles essayent d'émettre un signal au même moment (et donc de provoquer une collision).
+
 
 #### Différence IS / ES
  End System (système terminal) est un équipement que se retrouve connecté sur la péréphérie du réseau (ordinateur, imprimante, téléphone)
  Intermédiate system est un équipement qui va servir de lien, de jonction entre deux ou plusieurs équipements au sein du réseau.
 
+
+
 ## Adressage IP
+
 ### Adresse IP
+
 ### Subnetting (découpage)
+
+
+
 
 
 
