@@ -216,8 +216,47 @@ En suivant le modèle OSI, on peut situer les couches sur lesquelles travaillent
 ## Adressage IP
 
 ### Adresse IP
+#### IPv4
+
+Le protocole IPv4 est encore largement utilisé aujourd'hui, par rapport à son succésseur IPv6.
+L'attribution des adresses publiques en IPv4 est aujourd'hui assurée par un organisme américain nommé IANA (Internet Assigned Numbers Authority). En France, c'est l'AFNIC (Association française pour le nommage Internet en coopération) qui joue ce rôle.
+
+Or il reste de moins en moins d'adresses disponibles.
+La conséquence est qu'avec IPv4 il ne sera bientôt plus possible de connecter de nouvelles machines à Internet.
+
+Les adresses de type IPv4 sont constituées de quatre nombres pouvant avoir une valeur allant de `0` à `255`.
+Autrement dit, toutes les adresses publiques doivent être comprises entre `0.0.0.0` et `255.255.255.255`.
+
+256 ^ 4 = 4 294 967 296
+Cela permet tout de même d'avoir plus de 4 milliard d'adresses.
+
+#### IPv6
+
+Les adresses de type IPv6 ont été inventées pour solutioner le problème de pénurie d'adresses IPv4.
+L'IPv6 permet d'avoir plus de 340 sextillions adresses différentes.
+
+La très grande quantité d'adresses possibles rend inutile l'usage de la technique du NAT (Network Adress Translation) indispensable avec IPv4.
+Les adresses de type IPv6 sont constituées de huit nombres de deux octets, écrits en hexadécimal, pouvant avoir une valeur allant de `0000` à `ffff`, chacun séparés par un symbole `:` « deux points ».
+
+Par exemple :
+
+> `fc00:0db8:0000:85a3:0000:0000:ac1f:8001`
+
 
 ### Subnetting (découpage)
+### TCP / IP
+### DHCP
+### DNS
+### VLAN
+### Adresse MAC
+### Liste des ports courants
+### Commandes courantes ?!
+###
+###
+###
+###
+###
+###
 
 
 
