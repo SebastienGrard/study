@@ -210,7 +210,8 @@ Le principe est d'obliger les machines à attendre que le bus soit disponible av
  End System (système terminal) est un équipement que se retrouve connecté sur la péréphérie du réseau (ordinateur, imprimante, téléphone)
  Intermédiate system est un équipement qui va servir de lien, de jonction entre deux ou plusieurs équipements au sein du réseau.
 
-
+En suivant le modèle OSI, on peut situer les couches sur lesquelles travaillent les équipements réseaux à partir du schéma ci-dessous :
+![OSI_EAR](img/7couches_archi11.png)
 
 ## Adressage IP
 
