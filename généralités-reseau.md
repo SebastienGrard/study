@@ -56,7 +56,7 @@ Si on doit faire un rapport simplifié entre les couches et les équipements ré
   La couche 3 sera utilisée par des routeurs
 
 
-## Composants matériel d'un réseau
+## Connexion au sein d'un réseau
 
 ### Câble
 
@@ -114,7 +114,7 @@ Conseil : les prises RJ45 ont été conçues pour être compatibles avec les pri
 Autrement dit, lors de la conception du réseau téléphonique, plutôt que de déployer des câbles avec des connecteurs RJ11, il vaut mieux déployer des câbles avec des connecteurs RJ45 qui peuvent être utilisé indiféremment pour le téléphone ou l'informatique.
 Le coût de la main d'œuvre du déploiement est le même, seul le prix des câbles et des connecteurs varie un peu.Mais l'installation sera beaucoup plus modulable dans le futur.
 
-### Fibre optique
+#### Fibre optique
 
 C'est un type câble dont le fil est composé de verre ou de plastique.
 Cette matière transparente permet de faire passer de la lumière.
@@ -147,6 +147,47 @@ On retrouvera :
 - Le monomode : elle offre le meilleur rapport pour le moment. Envoi de la lumière en ligne droite.
 - Le multimode à gradient d'indice : utilisé dans les réseaux locaux. Les rayons lumineux ont une forme elliptiques lors de leurs propagations.
 - Le multimode à saut d'indice : utilisé dans les réseaux locaux. Les rayons lumineux se propagent par réflexion en dent de scie
+
+
+## Equipements réseau
+
+### HUB
+
+Appelé aussi répéteur.
+Permet de connecter plusieurs machines entre elles afin de créer un réseau. Matériel obselete. Traite sur la couche 1 (physique).
+Matériel très limité dans son utilisation.
+Régénère les signaux qu'il traite, partage la bande passante, et s'adapte au réseau le plus faible.
+
+### Switch
+
+Egalement appelé commutateur.
+
+A la différence du hub, en se servant de l'adresse IP et de l'adresse MAC, le switch est capable de savoir sur quel port chaque machine est connectée.
+Quand une machine transmet un signal, le switch achemine le signal vers le port de destination seulement au lieu de le diffuser (braodcast) sur tous les ports comme le hub.
+Le switch créé plusieurs segments de réseau qui sont donc isolés entre eux.
+Ceci a pour effet de réduire le risque de collision. Il va travailler sur la couche 2 (liaison), et il est configurable pour travailler sur la couche 3 (Réseau).
+
+
+Il existe une version plus limité qui est le brdige. Il permet de connecter deux réseaux entre eux, même si ils utilisent des technologies différentes. Il va séparer les domaines de collision.
+
+### Routeur
+
+
+
+
+### Wireless access point (point d'accès sans fil)
+
+### CPL
+
+#### Différence IS / ES
+ End System (système terminal) est un équipement que se retrouve connecté sur la péréphérie du réseau (ordinateur, imprimante, téléphone)
+ Intermédiate system est un équipement qui va servir de lien, de jonction entre deux ou plusieurs équipements au sein du réseau.
+
+## Adressage IP
+### Adresse IP
+### Subnetting (découpage)
+
+
 
 
 TODO : 
