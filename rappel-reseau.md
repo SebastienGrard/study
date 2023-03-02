@@ -130,8 +130,23 @@ Mais son inconvénient majeur est son prix.
 Les câbles à fibre optique et le matériel qui est capable d'en tirer profit sont plus chers que les câbles en cuivre et le matériel associé.
 Autre inconvénient rencontré à l'armée en opérations, lors d'installations sommaires, elle est souvent endommagée par les utilisateurs.
 
+
+On trouve 
+Il existe plusieurs types de connecteurs, selon le type d'équipement utilisé, entre autres.
 ![Fibre](img/fiber-optic-connectors.jpg)
 
+Il existe également différents types de fibre optique. La différence et la méthode de transmission de la lumière dans le câble, et va changer la spécificité du câble.
+On retrouvera :
+
+|             Fibre             | Affaiblissement du signal | Portée     | Débit      | Taille du coeur |
+|-------------------------------|---------------------------|------------|------------|-----------------|
+|           Monomode            |            0,5 dB/KM      | +/- 100 km | 100 Gbit/s |   - 10 μm       |
+| Multimode à gradient d'indice |             10 dB/KM      | +/- 2 km   | 1 Gbit/s   |   50-100 μm     |
+| Multimode à saut d'indice     |             10 dB/KM      | +/- 2 km   | 100 Mbit/s |   200 μm        |
+
+- Le monomode : elle offre le meilleur rapport pour le moment. Envoi de la lumière en ligne droite.
+- Le multimode à gradient d'indice : utilisé dans les réseaux locaux. Les rayons lumineux ont une forme elliptiques lors de leurs propagations.
+- Le multimode à saut d'indice : utilisé dans les réseaux locaux. Les rayons lumineux se propagent par réflexion en dent de scie
 
 
 TODO : 
